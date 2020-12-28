@@ -9,7 +9,7 @@ const replayButton = document.getElementById("js_replay");
 
 // 変数定義
 
-let randomNumber = Math.floor(Math.random() * 99 + 1);
+let randomNumber = Math.floor(Math.random() * 100 + 1);
 let tryCounter = 0;
 let lastNumberArray = [];
 
