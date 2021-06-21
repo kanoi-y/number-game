@@ -39,7 +39,7 @@ const checkNumber = () => {
     }
   }
   if (tryCounter === 10) {
-    resultText.textContent = "ゲームオーバー";
+    resultText.textContent = "ゲームオーバー！！";
     adviceText.textContent = "";
     replayButton.classList.toggle("none");
     button.disabled = true;
